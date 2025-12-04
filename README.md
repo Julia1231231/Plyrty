@@ -4,7 +4,7 @@
 
 Unlike standard wrappers, Plyrty features a **Smart Auto-Quality** algorithm that probes network bandwidth before switching, preventing playback interruptions and redundant stream reloads.
 
-![License](https://img.shields.io/badge/license-MIT-green
+![License](https://img.shields.io/badge/license-MIT-green)
 
  
 
