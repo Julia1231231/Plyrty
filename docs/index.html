@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plyrty Player Demo</title>
+    <style>
+        /* Simple page styles for the demo */
+        body { 
+            background: #111; 
+            color: #fff; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0; 
+            font-family: sans-serif;
+        }
+        .player-container { 
+            width: 800px; 
+            max-width: 95%; 
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
 
+<div class="player-container">
+    <!-- Plyrty Player Container -->
+    <!-- The 'plyrty' class automatically triggers initialization -->
+    <video class="plyrty" controls width="100%" poster="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Big_Buck_Bunny_-_Title_Screen.png/800px-Big_Buck_Bunny_-_Title_Screen.png">
+        <!-- Public DASH Test Stream (Big Buck Bunny) -->
+        <source src="https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd" type="application/dash+xml">
+        
+        <!-- Fallback for browsers without JS (optional) -->
+        Your browser does not support HTML5 video.
+    </video>
+</div>
+
+<!-- 
+    Load the main player script from the repository root.
+    Since this file is in the 'docs/' folder, we use '../' to go up one level.
+-->
+<script src="../script.js"></script>
+
+</body>
+</html>
