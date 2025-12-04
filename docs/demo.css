@@ -132,7 +132,7 @@ body {
 .btn-github {
     display: inline-flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
     text-decoration: none;
     color: #fff;
     background: rgba(255, 255, 255, 0.1);
@@ -141,6 +141,10 @@ body {
     font-size: 0.9rem;
     transition: all 0.2s ease;
     border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.btn-github i {
+    font-size: 1.3rem;
 }
 
 .btn-github:hover {
