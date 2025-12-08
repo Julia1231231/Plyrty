@@ -38,7 +38,7 @@
 <!-- Подключение скрипта Plyrty -->
 <script src="path/to/plyrty.js"></script>
 
-<!-- Добавление CSS (или позвольте скрипту обработать стили, если они встроены) -->
+<!-- Добавление CSS -->
 <link rel="stylesheet" href="path/to/plyrty.css">
 ```
 
