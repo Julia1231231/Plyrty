@@ -107,4 +107,4 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 
 ***
 
-*Built with ❤️ by Julia1231231*
+*Built with ❤️ by Julia*
