@@ -1,6 +1,7 @@
 # Plyrty Player
 
-![License](https://img.shields.io/badge/license-MIT-green) ![English](README.md) | ![Русский](README.ru.md)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![English](https://img.shields.io/badge/lang-English-blue)](README.md) | [![Русский](https://img.shields.io/badge/язык-Русский-red)](README.ru.md)
 
 **Plyrty** is a lightweight, modern HTML5 video player wrapper designed for seamless streaming. It provides a unified interface for playing **HLS** (`.m3u8`) and **DASH** (`.mpd`) streams, handling library dependencies automatically.
 
